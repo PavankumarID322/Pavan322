@@ -21,9 +21,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class AmazonAllLinks {
-	
-
 	public static void main(String[] args) throws Throwable {
+		
+//		Hi pradeep
 		ChromeOptions op=new ChromeOptions();
 		op.addArguments("--disable-notification");
 		op.addArguments("headless");
@@ -53,5 +53,4 @@ public class AmazonAllLinks {
 			System.out.println(i+1+"  "+data);
 		}
 	}
-//kjdbkjdfbkjdnldkn dlkndklbdflkdlkbl
 }
